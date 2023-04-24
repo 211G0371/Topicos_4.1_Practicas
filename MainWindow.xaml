@@ -1,0 +1,77 @@
+﻿<Window x:Class="Datos_Login_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Datos_Login_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+        <DockPanel>
+        <DockPanel.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="Height" Value="auto"></Setter>
+                <Setter Property="Width" Value="auto"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+            </Style>
+            <Style TargetType="ComboBox">
+                <Setter Property="Height" Value="auto"></Setter>
+                <Setter Property="Width" Value="auto"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Height" Value="30" ></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="Margin" Value="5,10,0,10"></Setter>
+            </Style>
+        </DockPanel.Resources>
+        <WrapPanel DockPanel.Dock="Bottom">
+            <Button Width="200" Background="#2870F4" Foreground="White">Enviar informacion</Button>
+            <Button Width="80">Cancelar</Button>
+        </WrapPanel>
+        <TextBlock FontSize="20" DockPanel.Dock="Top" Foreground="White" Background="#2870F4" TextAlignment="Justify">Datos Personales</TextBlock>
+        <Grid>
+            <Grid.Resources>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="245"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0">Nombre(s)</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0">Apellidos</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0">Email</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0">Direccion</TextBlock>
+            <TextBlock FontSize="14" Foreground="Gray" Grid.Row="3" Grid.Column="0" Padding="0,35,0,0" TextWrapping="Wrap" >Escriba la direccion completa incluyendo, datos de la calle, colonia y ciudad</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0">Genero</TextBlock>
+
+            <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="1" Height="auto" Width="auto" Margin="20"></TextBox>
+
+            <ComboBox Grid.Row="4" Grid.Column="1" SelectedIndex="0">
+                <ComboBoxItem>Seleccionar</ComboBoxItem>
+            </ComboBox>
+
+            <Border  Grid.Row="0" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="5" Grid.Column="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="2" Grid.ColumnSpan="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="3" Grid.ColumnSpan="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="4" Grid.ColumnSpan="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="1" Grid.ColumnSpan="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+            <Border Grid.RowSpan="5" Grid.ColumnSpan="2" BorderThickness=".5,0,0,.5" BorderBrush="Gray" ></Border>
+        </Grid>
+    </DockPanel>
+    
+</Window>
