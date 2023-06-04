@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_WPF", "..\Agenda_WPF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdivinarNumero_wpf", "..\AdivinarNumero_wpf\AdivinarNumero_wpf.csproj", "{8FAF1CB9-080D-48C2-A293-0DC198BAF16C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_WPF", "..\..\..\Desktop\Agenda_WPF\Agenda_WPF.csproj", "{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{8FAF1CB9-080D-48C2-A293-0DC198BAF16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAF1CB9-080D-48C2-A293-0DC198BAF16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAF1CB9-080D-48C2-A293-0DC198BAF16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
