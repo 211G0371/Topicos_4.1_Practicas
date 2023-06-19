@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdivinarNumero_wpf", "..\Ad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agenda_WPF", "..\..\..\Desktop\Agenda_WPF\Agenda_WPF.csproj", "{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pinacoteca_final_211G0371", "..\pinacoteca_final_211G0371\pinacoteca_final_211G0371.csproj", "{615AF638-053B-4C40-A35E-7A57A969B0FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "librosDatos", "..\librosDatos\librosDatos.csproj", "{A975DD60-8637-4DA2-8273-A18C56A326F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398A9BF1-4FDB-4425-AA01-7B496FDAED5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615AF638-053B-4C40-A35E-7A57A969B0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615AF638-053B-4C40-A35E-7A57A969B0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615AF638-053B-4C40-A35E-7A57A969B0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615AF638-053B-4C40-A35E-7A57A969B0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A975DD60-8637-4DA2-8273-A18C56A326F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A975DD60-8637-4DA2-8273-A18C56A326F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A975DD60-8637-4DA2-8273-A18C56A326F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A975DD60-8637-4DA2-8273-A18C56A326F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
