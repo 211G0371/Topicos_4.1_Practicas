@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pinacoteca_final_211G0371",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "librosDatos", "..\librosDatos\librosDatos.csproj", "{A975DD60-8637-4DA2-8273-A18C56A326F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trabajos finales", "Trabajos finales", "{F20AF385-5FEA-421D-9D30-D4C79ABCFADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B780B2DF-D3FA-4005-89BD-643E5B508A3E} = {68F5AD5A-ACA7-489B-8970-6505867F4B96}
 		{8FAF1CB9-080D-48C2-A293-0DC198BAF16C} = {68F5AD5A-ACA7-489B-8970-6505867F4B96}
+		{615AF638-053B-4C40-A35E-7A57A969B0FB} = {F20AF385-5FEA-421D-9D30-D4C79ABCFADA}
+		{A975DD60-8637-4DA2-8273-A18C56A326F0} = {F20AF385-5FEA-421D-9D30-D4C79ABCFADA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED43BA2D-1832-4C05-A004-42B7D3810BBA}
